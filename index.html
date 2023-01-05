@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="author" content="geovani frança">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <script src="https://kit.fontawesome.com/15c4ef3d44.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Cormorant+Garamond&family=Nunito:ital,wght@0,200;1,200&family=Poppins&family=Roboto:ital,wght@0,300;0,500;0,700;1,100;1,400&display=swap"
+        rel="stylesheet">
+    <title>Fifa 2.0</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="mobileButton">
+            <div>
+                <a href="#games" onclick=" handleCloseMobileButton()">Jogos</a>
+                <a href="#comments" onclick=" handleCloseMobileButton()">Comentarios</a>
+                <a href="#contacts" onclick=" handleCloseMobileButton()">Contatos</a>
+
+            </div>
+        </div>
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="#games">Jogos</a> </li>
+                    <li> <a href="#comments">Comentarios</a> </li>
+                    <li> <a href="#contacts">Contatos</a> </li>
+
+                </ul>
+            </nav>
+            <div class="account" onclick="handleOpenMobileButton()">
+                <button type="button"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </header>
+
+        <main id="games">
+            <div class="card-container">
+                <div class="card">
+                    <img src="card.jpg" alt="imagem-jogo">
+                    <h3>FIFA 2023</h3>
+                    <p> FIFA 23 chega para saciar a ansiedade da comunidade de futebol virtual o simulador trará
+                        diversas
+                        novidades no quesito gameplay, modos de jogo, novas ligas e mais.</p>
+                    <div class="prices">
+
+                        <span>R$: 290,00</span>
+                        <span>R$: 270,00</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </div>
+                <div class="card">
+                    <img src="nhl.jfif" alt="imagem-jogo">
+                    <h3>NHL 2023</h3>
+                    <p>A união faz a força em EA SPORTS™ NHL 23. Monte uma escalação com os melhores jogadores e
+                        jogadoras do mundo com a introdução de times mistos no HUT.</p>
+                    <div class="prices">
+
+                        <span>R$: 290,00</span>
+                        <span>R$: 270,00</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </div>
+                <div class="card">
+                    <img src="ufc.jfif" alt="imagem-jogo">
+                    <h3>UFC 3</h3>
+                    <p>
+
+                        No UFC 3, o lutador que você se torna é moldado pelo seu estilo de luta, suas conquistas e sua
+                        personalidade. Não importa como ou onde você jogue
+                    </p>
+                    <div class="prices">
+
+                        <span>R$: 290,00</span>
+                        <span>R$: 270,00</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </div>
+                <div class="card">
+                    <img src="NFL.jfif" alt="imagem-jogo">
+                    <h3>NFL 2022</h3>
+                    <p>Dê as cartas em Franchise com atualizações de lógica de negociação e agência gratuita, abra
+                        caminho para os livros de história em Face of the Franchise: The League e reúna os mais
+                        poderosos</p>
+                    <div class="prices">
+
+                        <span>R$: 290,00</span>
+                        <span>R$: 270,00</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </div>
+                <div class="card">
+                    <img src="NBA.jfif" alt="imagem-jogo">
+                    <h3>NBA 2022</h3>
+                    <p>Sua equipe dos sonhos: colete, construa e jogue na melhor da nba competição de fantasia: nba 2k22
+                        myteam
+                        Construa o alinhamento dos seus sonhos de estrelas e lendas da nba de qualquer época 
+                    </p>
+                    <div class="prices">
+                        <span>R$: 290,00</span>
+                        <span>R$: 270,00</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </div>
+                <div class="card">
+                    <img src="rr.jfif" alt="imagem-jogo">
+                    <h3>Formula 1 2022</h3>
+                    <p>Sua equipe dos sonhos: colete, construa e jogue na melhor da nba competição de fantasia: nba 2k22 myteam
+                        Construa o alinhamento dos seus sonhos de estrelas e lendas da nba de qualquer época e explore a mudança de jogo </p>
+                    <div class="prices">
+
+                        <span>R$: 290,00</span>
+                        <span>R$: 270,00</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </div>
+            </div>
+            <div class="divider" id="comments">
+            </div>
+            <div class="comments">
+                <h2>Twitter</h2>
+                <div class="line-card">
+                    <div class="comments-card">
+                        <img src="usuario3.jpg" alt="">
+                        <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto quae nulla
+                            eveniet dolorem quis vitae adipisci quia tempore temporibus. "</p>
+                    </div>
+                    <div class="comments-card">
+                        <img src="usuaro1.jpg" alt="">
+                        <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto quae nulla
+                            eveniet dolorem quis vitae adipisci quia tempore temporibus. "</p>
+                    </div>
+                </div>
+                <div class="comments-card">
+                    <img src="usuario2.jpg " alt="">
+                    <p> " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto quae nulla eveniet
+                        dolorem quis vitae adipisci quia tempore temporibus. Cumque labore voluptate assumenda?
+                        Voluptatibus, ipsam eaque. Laboriosam, quas perferendis. " </p>
+                </div>
+            </div>
+        </main>
+        <div class="divider" id="contacts">
+        </div>
+        <footer>
+            <div class="company">
+                <h2>FIFA</h2>
+                <img src="logo.png" alt="">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veniam ratione eligendi quae error.
+                    Pariatur vitae, al.</p>
+            </div>
+            <div class="contacts">
+                <H2>Contatos</H2>
+                <span>company@email.com</span>
+                <span>0800-000-0000</span>
+                <span>Av. Exemplo Exemplo, 609</span>
+
+            </div>
+            <div class="links">
+                <h2>Links</h2>
+                <li> <a href="#games">Jogos</a> </li>
+                <li> <a href="#comments">Comentarios</a> </li>
+                <li> <a href="#contacts">Contatos</a> </li>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
