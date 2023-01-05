@@ -10,11 +10,11 @@ PAGINA DE GAMES DA EA SPORTS
   </h5>
 
 ## 🖥 Antevisão 
-<img src="https://github.com/gfranca11/Mini-Mercado/blob/main/Anima%C3%A7%C3%A3o.gif">
+<img src="https://github.com/gfranca11/EA-Sports/blob/main/Animation.gif">
  
  📌 Ajustes e melhorias
  
- - [ ] ADICIONAR MAIS PRODUTOS 
+ - [ ] ADICIONAR UM CARRINHO DE COMPRAS 
  
 
  
